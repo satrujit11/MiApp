@@ -45,6 +45,65 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
+                SizedBox(
+                  height: 10,
+                  width: 150,
+                  child: Divider(
+                    color: Colors.white54,
+                  ),
+                ),
+                SizedBox(
+                  width: 260,
+                  child: Card(
+                    color: Colors.white,
+                    elevation: 10,
+                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                    child: ListTile(
+                      visualDensity: VisualDensity(horizontal: 0, vertical: -4),
+                      leading: Icon(
+                        Icons.phone,
+                        size: 20,
+                        color: Colors.green[900],
+                      ),
+                      title: Text(
+                        '+91 9348 789 344',
+                        style: GoogleFonts.sourceSansPro(
+                          textStyle: TextStyle(
+                            fontSize: 13,
+                            color: Colors.green[900],
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  width: 260,
+                  child: Card(
+                    color: Colors.white,
+                    elevation: 10,
+                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                    child: ListTile(
+                      visualDensity: VisualDensity(horizontal: 0, vertical: -4),
+                      leading: Icon(
+                        Icons.email,
+                        size: 20,
+                        color: Colors.green[900],
+                      ),
+                      title: Text(
+                        'beherasatrujit12@gmail.com',
+                        style: GoogleFonts.sourceSansPro(
+                          textStyle: TextStyle(
+                            fontSize: 13,
+                            color: Colors.green[900],
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
